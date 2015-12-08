@@ -1,0 +1,87 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-family: 'Bree Serif', Georgia, serif;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+footer {
+    font-size: 1.2rem;
+}
+
+/* Bootstrap */
+.panel {
+    margin-top: 1rem;
+}
+h1.panel-title {
+    font-size: 3rem;
+}
+
+.signature-attributes {
+    font-size: 2rem;
+    color: #777 !important;
+}
+
+/* Custom */
+.container-overview {
+    margin-bottom: 4rem;
+}
+
+.subsection-title {
+    margin-bottom: 2rem;
+}
+
+.description.subheader {
+    margin-bottom: 2rem;
+}
+
+.main-header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1.5rem;
+}
+
+.module {
+    border-bottom: 1px solid #ccc;
+}
+
+.functions dl {
+    margin-bottom: 4rem;
+}
+
+.functions .description.subheader {
+    border-bottom: 1px solid #ccc;
+}
+
+.functions .name span {
+    color: #777777;
+}
+
+.functions .name .signature,
+.functions .name .type-signature {
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+}
+
+/* Table */
+.table {
+    width: 70%;
+}
+
+.table .name {
+    font-weight: 400;
+}
+
+.table .description p {
+    margin: 0;
+}
