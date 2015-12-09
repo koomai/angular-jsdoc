@@ -33,6 +33,10 @@ h1.panel-title {
 .list-group-item li {
     font-size: 1.4rem;
 }
+
+.panel pre {
+    width: 70%;
+}
 /* Custom */
 .signature-attributes {
     font-size: 2rem;
