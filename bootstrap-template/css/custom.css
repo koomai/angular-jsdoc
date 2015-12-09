@@ -51,6 +51,10 @@ h1.panel-title {
     margin-bottom: 2rem;
 }
 
+.description.lead {
+    font-size: 1.8rem;
+}
+
 .main-header {
     margin-top: 2rem;
     margin-bottom: 2rem;
