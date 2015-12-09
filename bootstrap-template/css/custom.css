@@ -14,7 +14,7 @@ h1 {
 }
 
 ul > li {
-    list-style-type: none;
+    list-style-type: circle;
 }
 
 footer {
@@ -25,16 +25,20 @@ footer {
 .panel {
     margin-top: 1rem;
 }
+
 h1.panel-title {
     font-size: 3rem;
 }
 
+.list-group-item li {
+    font-size: 1.4rem;
+}
+/* Custom */
 .signature-attributes {
     font-size: 2rem;
     color: #777 !important;
 }
 
-/* Custom */
 .container-overview {
     margin-bottom: 4rem;
 }
@@ -48,12 +52,14 @@ h1.panel-title {
 }
 
 .main-header {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     border-bottom: 1px solid #ccc;
     padding-bottom: 1.5rem;
 }
 
 .module {
-    border-bottom: 1px solid #ccc;
+    margin-bottom: 1.5rem;
 }
 
 .functions dl {
