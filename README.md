@@ -4,6 +4,8 @@ Angular-JSDoc
 JSDoc 3 Template for AngularJS.  
 A JSDoc plugin and template for AngularJS, nothing else!  
 
+Update: This fork has a new template - `bootstrap-template`. 
+
 NOTE: the location of configure file and template directory has been moved with the release of 1.0.0
  Please make changes accordingly for your gulp file.
 
@@ -98,10 +100,11 @@ Example
 Customization
 -------------
 
-Currently, there are two templates built-in;
+Currently, there are three templates built-in;
 
   - default
   - angular-template (Recommended)
+  - bootstrap-template (Added by @koomai)
 
 To add your own template, please copy the `angular-template` directory to your own, then, make your own css, js, and html files.   
 Then, run the `jsdoc.js` command with your template. e.g.,
