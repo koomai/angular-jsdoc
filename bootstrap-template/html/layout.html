@@ -71,9 +71,9 @@
                         <a href="" ng-click="module{{moduleVar}} = !module{{moduleVar}}">
                             Module: {{ moduleName }}
                         </a>
-                        <i ng-cloak ng-show="module{{moduleVar}}">+</i>
+                        <i ng-cloak ng-show="!module{{moduleVar}}">+</i>
                     </h4>
-                    <div id="{{moduleName}}" ng-hide="module{{moduleVar}}">
+                    <div id="{{moduleName}}" ng-hide="!module{{moduleVar}}">
                         <ul class="list-group" ht-repeat="(groupName, group) in module">
                             <li class="list-group-item">
                                 <h4>
